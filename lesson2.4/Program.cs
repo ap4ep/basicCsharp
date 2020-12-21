@@ -24,12 +24,9 @@ namespace lesson2._4
                 password = Console.ReadLine();
 
                 if (login == "root")
-                {
                     if (password == "GeekBrains")
                         return true;
-                    else
-                        tryCount++;
-                }
+
             } while (tryCount < 3);
 
             return false;
