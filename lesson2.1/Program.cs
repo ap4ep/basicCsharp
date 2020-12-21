@@ -6,6 +6,12 @@ namespace lesson2._1
     {
         static void Main(string[] args)
         {
+            ///
+            /// Написать метод, возвращающий минимальное из трёх чисел.
+            ///
+            /// Наумов Илья
+            ///
+
             Console.WriteLine(GetMinimalValue(11, 20, 4));
             Console.ReadKey();
         }

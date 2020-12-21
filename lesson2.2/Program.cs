@@ -6,6 +6,12 @@ namespace lesson2._2
     {
         static void Main(string[] args)
         {
+            ///
+            /// Написать метод подсчета количества цифр числа.
+            ///
+            /// Наумов Илья
+            ///
+
             Console.WriteLine(GetNumberCount(123456789));
             Console.ReadKey();
         }
