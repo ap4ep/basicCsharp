@@ -43,7 +43,7 @@ namespace lesson3._2
                 }
                 else
                 {
-                    Console.WriteLine("Введено не число");
+                     throw new ArgumentException("Введено не число");
                 }
             }
         }
