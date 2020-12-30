@@ -20,7 +20,6 @@ namespace lesson_4._2
             Random rnd = new Random();
 
             int[] array = new int[20];
-            int pairs = 0;
 
             for (int i = 0; i <= array.Length - 1; i++)
             {
