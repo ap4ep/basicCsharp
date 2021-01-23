@@ -15,7 +15,6 @@ namespace lesson7._1
         public MainForm()
         {
             InitializeComponent();
-            //Event
         }
 
         public int Amount
@@ -69,6 +68,11 @@ namespace lesson7._1
         public void Loses()
         {
             MessageBox.Show("ПРОИГРЫШЬ");
+        }
+
+        public void ShowWinCondition(int winAmount)
+        {
+            MessageBox.Show(winAmount.ToString(),"Для победы вам нужно", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

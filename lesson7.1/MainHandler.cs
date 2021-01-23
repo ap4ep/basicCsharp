@@ -52,6 +52,7 @@ namespace lesson7._1
         {
             _doublerLogic.Start();
             UpdateForm();
+            _mainForm.ShowWinCondition(_doublerLogic.WinAmount);
         }
 
         private void CheckCondition()
